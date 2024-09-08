@@ -1,0 +1,58 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: #000;
+  padding: 0 20px;
+}
+
+
+.logo__img {
+  border-radius: 8px;
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.nav__list{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav__link {
+  display:block;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.title{
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer {
+  color: #fff;
+  background: #444;
+  text-align: center;
+  line-height: 80px;
+}
+
